@@ -57,7 +57,40 @@ html{
 }
 .headings{
     color: aliceblue;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: monospace;
     font-size:10vh;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+    background: linear-gradient(rgb(54, 50, 90),rgb(171, 157, 193));
+    height: 500px;
+}
+#pic{
+    display: flex;
+}
+#pic img{
+    width: 575px;
+    height: 400px;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+    color: azure;
+}
+#intro h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
 
+}
+.headings2{
+    align-self:flex-start;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
 }
